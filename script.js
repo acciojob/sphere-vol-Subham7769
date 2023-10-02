@@ -7,7 +7,7 @@ function volume_sphere() {
     let sphereVolume = (4 / 3) * Math.PI * Math.pow(radius, 3);
 
     // Display the calculated volume in the "volume" input field
-    volume.value = sphereVolume.toFixed(2); // Rounded to 2 decimal places
+    volume.value = sphereVolume.toFixed(4); // Rounded to 2 decimal places
 
     // Prevent the form from submitting
     return false;
